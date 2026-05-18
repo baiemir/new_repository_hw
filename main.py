@@ -44,7 +44,7 @@ def main_page(page: ft.Page):
             # 3. Обновляем виджет списка, чтобы изменения сразу отобразились на экране
             task_list.update()
             # Создаем кнопку-иконку (корзину) и привязываем к ней функцию delete_task
-            delete_button = ft.IconButton(icon=ft.Icons.DELETE, on_click=delete_task)
+        delete_button = ft.IconButton(icon=ft.Icons.DELETE, on_click=delete_task)
 
         # Кнопка-переключатель "Карандаш". Включает и выключает режим редактирования
         def enable_edit(_):
